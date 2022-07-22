@@ -1,21 +1,23 @@
-//template strings
-const title = 'Best reads of 2022';
-const author = 'Efosblack';
-const likes = 30;
+//arrays
+let ninjas = ['efe', 'ryu', 'lu-kang'];
 
-//concatenation way
-// let result = 'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes';
-// console.log(result);
+// ninjas[1] = 'jet-li';
+// console.log(ninjas);
 
-//template string way
-let result = `the blog called ${title} by ${author} has ${likes} likes`;
+// let ages = [20, 25, 30, 35];
+// console.log(ages[2]);
+
+// let random = ['efe', 'crystal', 30,20];
+// console.log(random);
+
+//console.log(ninjas.length);
+
+// array methods
+
+//let result = ninjas.join(',');
+//let result = ninjas.indexOf('lu-kang');
+//let result = ninjas.concat(['ken', 'crystal']);
+let result = ninjas.push('ken'); //destructive method
+result = ninjas.pop(); //destructive method
+
 console.log(result);
-
-//creating html templstes
-let html = `
- <h2>${title}</h2>
- <p>By ${author}</p>
- <span>This blog has ${likes} likes</span>
-`;
-
-console.log(html);
