@@ -1,15 +1,9 @@
-// for loops
+//do while loops
 
-// for(let i = 0; i < 5; i++){
-//     console.log('in loop:', i);
+let i = 5;
+do{
+    console.log('val of i is: ', i);
+    i++;
 
-// }
-// console.log('loop finished');
+ }while(i < 5);
 
-const names = ['blaq', 'mario', 'luigi'];
-
-for(let i = 0; i < names.length; i++){
-    //console.log(names[i]);
-    let html = `<div>${names[i]}</div>`;
-    console.log(html);
-}
