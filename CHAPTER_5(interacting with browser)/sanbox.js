@@ -1,15 +1,9 @@
-//updating  css styles
-const title = document.querySelector('h1');
+//managing classes
 
-//title.setAttribute('style', 'margin:50px;');
+// const content = document.querySelector('p');
 
-console.log(title.style);
-console.log(title.style.color);
+// console.log(content.classList);
+// content.classList.add('error');
+// content.classList.remove('error');
+// content.classList.add('success');
 
-
-title.style.margin = '50px';
-
-title.style.color = 'crimson';
-title.style.fontSize = '60px';
-
-title.style.margin = '';  //delete style
