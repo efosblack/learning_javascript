@@ -1,12 +1,15 @@
-//updating attributes
-const link = document.querySelector('a');
+//updating  css styles
+const title = document.querySelector('h1');
 
-console.log(link.getAttribute('href'));
-link.setAttribute('href', 'https://www.netninja.co.uk');
-link.innerText = 'the net ninja website';
+//title.setAttribute('style', 'margin:50px;');
 
-const msg =document.querySelector('p');
-console.log(msg.getAttribute('class'));
+console.log(title.style);
+console.log(title.style.color);
 
-msg.setAttribute('class', 'success');
-msg.setAttribute('style', 'color:green;');
+
+title.style.margin = '50px';
+
+title.style.color = 'crimson';
+title.style.fontSize = '60px';
+
+title.style.margin = '';  //delete style
