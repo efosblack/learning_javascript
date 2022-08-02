@@ -1,22 +1,12 @@
-const para = document.querySelector('p');
+//updating attributes
+const link = document.querySelector('a');
 
-// console.log(para.innerText);
-// para.innerText = 'ninjas are awesome';
+console.log(link.getAttribute('href'));
+link.setAttribute('href', 'https://www.netninja.co.uk');
+link.innerText = 'the net ninja website';
 
-const paras = document.querySelectorAll('p');
+const msg =document.querySelector('p');
+console.log(msg.getAttribute('class'));
 
-// paras.forEach(para => {
-//     console.log(para.innerText);
-//     para.innerText += ' new text'
-// });
-
-const content = document.querySelector('.content');
-
-//console.log(content.innerHTML);
-// content.innerHTML += '<h2>this is a new h2 </h2>';
-
-const people = ['mario', 'liugi', 'yoshi'];
-
-people.forEach(person => {
-    content.innerHTML += `<p>${person}</p>`;
-});
+msg.setAttribute('class', 'success');
+msg.setAttribute('style', 'color:green;');
